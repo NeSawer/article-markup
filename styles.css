@@ -1,8 +1,63 @@
-/* Тут пиши основные стили */
+.header-logo {
+    margin: 10px 38px;
+}
 
+.header-menu {
+    background-color: #f9f8f7;
+    border-top: 2px solid #d0cfcf;
+    border-bottom: 2px solid #d0cfcf;
+}
+
+.header-menu-list {
+    list-style: none;
+    margin-left: 23px;
+    padding: 0;
+}
+
+.header-menu-item {
+    display: inline-block;
+    font-family: LucidaGrande, Roboto, Varela;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    margin: 3px 9px;
+}
+
+.header-menu-item-link {
+    padding: 4px 12px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.header-menu-item-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-menu-item-selected {
+    color: darkred;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .header-logo {
+        margin: 10px 20px;
+    }
+    
+    .header-menu-list {
+        list-style: none;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .header-menu-item {
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 3px 12px;
+    }
+    
+    .header-menu-item-link {
+        padding: 4px 16px;
+    }
 }
