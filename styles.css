@@ -39,6 +39,12 @@
     color: darkred;
 }
 
+.header-menu-item-selected:hover {
+    color: darkred;
+    text-decoration: none;
+    cursor:auto;
+}
+
 @media (max-width: 800px) {
     .header-logo {
         margin: 10px 20px;
