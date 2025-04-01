@@ -67,7 +67,47 @@ code {
 }
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    main {
+        width: 520px;
+    }
+
+    .h1_title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .h2_title {
+        font-size: 22px;
+        line-height: 39px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .paragraph1 {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .paragraph2 {
+        margin-top: 6px;
+        margin-bottom: 24px;
+    }
+
+    .paragraph3 {
+        margin-top: 6px;
+        margin-bottom: 25px;
+    }
+
+    .paragraph4 {
+        margin-top: 24px;
+        margin-bottom: 5px;
+    }
+
+    .paragraph5 {
+        margin-top: 24px;
+        margin-bottom: 5px;
+    }
+
 }
